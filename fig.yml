@@ -12,7 +12,7 @@ lb:
   links:
   - consul
   ports:
-  - "80:80"
+  - "80"
 
 consul:
   command: -server -bootstrap -advertise 10.0.2.15
